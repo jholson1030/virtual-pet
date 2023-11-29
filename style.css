@@ -1,6 +1,6 @@
 #pet {
-    height: 1000px;
-    width: 800px;
+    height: 800px;
+    width: 600px;
     border: solid black 3px;
     border-radius: 40%;
     display: flex;
@@ -10,16 +10,17 @@
   }
   
   .pet-screen {
-    height: 400px;
-    width: 600px;
+    height: 250px;
+    width: 400px;
     border: solid black 1px;
-    displayuy: flex;
-    margin-top: 150px;
+    display: flex;
+    margin: 100px;
   }
   
   .button {
-    margin: 100px 50px 300px;
+    margin: 50px 25px 150px;
     width: 100px;
     height: 40px;
+    border: none;
     border-radius: 50%
   }
