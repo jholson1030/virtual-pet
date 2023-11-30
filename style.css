@@ -57,7 +57,7 @@
   .sprite.baby-idle {
     display: none;
     background-image: url(assets/images/baby-idle1.png);
-    animation: baby-idle 5.0s steps(5) infinite;
+    animation: baby-idle 2.5s steps(5) infinite;
     background-position: 0px 0px;
   }
 
