@@ -16,11 +16,17 @@ function initializeGame() {
     pet.style.display = 'flex';
     alert(`Thanks for playing! ${petName}'s egg will hatch soon...`);
     petNameDisplay.innerHTML = petName;
+    // Starts the hatching countdown
+    setTimeout(startHatching, 60000);
+}
+
+function startHatching() {
+    hatchEgg();
 }
 
 function hatchEgg() {
     pet.classList.add('hatching');
 }
  
-document.querySelector('.hatch-egg').addEventListener('click', hatchEgg());
+
 initializeGame();
