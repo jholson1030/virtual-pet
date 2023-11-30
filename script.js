@@ -18,4 +18,9 @@ function initializeGame() {
     petNameDisplay.innerHTML = petName;
 }
 
+function hatchEgg() {
+    pet.classList.add('hatching');
+}
+ 
+document.querySelector('.hatch-egg').addEventListener('click', hatchEgg());
 initializeGame();
