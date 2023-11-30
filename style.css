@@ -22,7 +22,7 @@
   .sprite {
     width: 45px;
     height: 36px;
-    display: flex;
+    display: none;
     background-image: url(assets/images/egg-idle1.png);
     background-repeat: no-repeat;
     background-position: 0px 0px;
