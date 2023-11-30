@@ -54,6 +54,22 @@
     }
   }
 
+  .sprite.baby-idle {
+    display: none;
+    background-image: url(assets/images/baby-idle1.png);
+    animation: baby-idle 5.0s steps(5) infinite;
+    background-position: 0px 0px;
+  }
+
+  @keyframes baby-idle {
+    0% {
+      background-position: 0px 0px;
+    }
+    100% {
+      background-position: 0px -180px;
+    }
+  }
+
   .button {
     margin: 20px 25px 100px;
     width: 50px;
