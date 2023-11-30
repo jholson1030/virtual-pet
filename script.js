@@ -13,7 +13,7 @@ function initializeGame() {
         }
     }
     pet.style.display = 'flex';
-    petScreen.textContent = "Thank's for playing!" petName "'s egg will hatch soon..."
+    alert(`Thanks for playing! ${petName}'s egg will hatch soon...`);
 }
 
 initializeGame();
