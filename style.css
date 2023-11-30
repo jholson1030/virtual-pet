@@ -26,10 +26,10 @@
     background-image: url(assets/images/egg-idle1.png);
     background-repeat: no-repeat;
     background-position: 0px 0px;
-    animation: egg-idle1 1.0s steps(2) infinite;
+    animation: egg-idle 1.0s steps(2) infinite;
   }
 
-  @keyframes egg-idle1 {
+  @keyframes egg-idle {
     0% {
         background-position: 0px 0px;
     }
@@ -39,23 +39,15 @@
   }
   
   .sprite.hatching {
+    display: none;
     background-image: url(assets/images/egg-hatching1.png);
-    animation: egg-hatching 1.0s steps(5) 1;
+    animation: egg-hatching 5.0s steps(5) 1;
     background-position: 0px 0px;
   }
 
   @keyframes egg-hatching {
     0% {
       background-position: 0px 0px;
-    }
-    25% {
-      background-position: 0px -45px;
-    }
-    50% {
-      background-position: 0px -90px;
-    }
-    75% {
-      background-position: 0px -135px;
     }
     100% {
       background-position: 0px -180px;
