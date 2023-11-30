@@ -1,5 +1,6 @@
 const petScreen = document.querySelector('.pet-screen');
 let pet = document.querySelector('.sprite');
+let petNameDisplay = document.querySelector('.pet-name-display');
 let happiness = 100;
 let fullness = 100;
 let cleanliness = 100;
@@ -14,6 +15,7 @@ function initializeGame() {
     }
     pet.style.display = 'flex';
     alert(`Thanks for playing! ${petName}'s egg will hatch soon...`);
+    petNameDisplay.innerHTML = petName;
 }
 
 initializeGame();
