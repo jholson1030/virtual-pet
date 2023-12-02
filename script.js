@@ -17,7 +17,7 @@ function initializeGame() {
     alert(`Thanks for playing! ${petName}'s egg will hatch soon...`);
     petNameDisplay.innerHTML = petName;
     // Starts the hatching countdown
-    setTimeout(startHatching, 10000);
+    setTimeout(startHatching, 60000);
 }
 
 function startHatching() {
@@ -33,5 +33,7 @@ function babyIdle() {
     pet.classList.remove('hatching');
     pet.classList.add('baby-idle');
 }
+
+
 
 initializeGame();
